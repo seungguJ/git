@@ -2,6 +2,9 @@
 
 ## README
 
+<details>
+ <summary> README 작성법</summary>
+
 #### 제목
 
 ```
@@ -83,6 +86,31 @@ repo에 image를 upload한 뒤 이미지를 우클릭 하여 링크 주소 복�
 "![이미지 이름](복사한 링크 주소)" 이런식으로 삽입
 
 ```
-
+![test image](https://github.com/seungguJ/git/blob/master/image.png)
 ```
 
+![test image](https://github.com/seungguJ/git/blob/master/image.png)
+
+#### 접기/펼치기
+
+```
+<details>
+<summary>접기/펼치기</summary>
+내용
+</details>
+```
+
+<details>
+<summary>접기/펼치기</summary>
+내용
+</details>
+
+---
+
+<details>
+<summary>reference</summary>
+* https://velog.io/@gmlstjq123/Readme.md-%ED%8C%8C%EC%9D%BC-%EC%9E%91%EC%84%B1%EB%B2%95
+* https://backendcode.tistory.com/173
+</details>
+
+</details>
