@@ -160,6 +160,11 @@ git remote add origin [복사한 repository url] # origin이라는 이름으로 
 git remote -v # git과 연동된 repository와 이름을 확인할 수 있음
 ```
 
+remote 취소
+```
+git remote remove origin # origin으로 등록된 git 해제
+```
+
 #### Repository의 branch 확인 및 변경
 
 ```
