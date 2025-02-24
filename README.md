@@ -197,6 +197,17 @@ git add 취소
 git reset [파일명] # git reset 하면 모두 add 취소
 ```
 
+#### git 삭제된 파일 반영
+
+현재 업데이트 해야할 목록들 모두 add and commit
+
+```
+git add -u # 삭제된 파일과 업데이트 된 파일 모두 반영
+git commit -a -m "message"
+git push
+```
+
+
 #### 다른 사람이 push해서 버전을 맞춰야하는 경우
 
 ```
